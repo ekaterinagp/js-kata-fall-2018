@@ -1,0 +1,9 @@
+#allTweets {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin: 2em;
+}
+
+h2 {
+  font-size: 15px;
+}
