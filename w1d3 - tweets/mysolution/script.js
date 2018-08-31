@@ -6,6 +6,8 @@ let template = document.querySelector("#singleTweet").content;
 
 let fetchButton = document.querySelector("button");
 
+let input = document.querySelector("#input");
+
 
 function fetchTweets() {
   console.log("fetched called");
@@ -23,7 +25,15 @@ function fetchTweets() {
 
 }
 
+fetchButton.addEventListener('click', function() {
+  clearBox();
+  fetchTweets()
+});
+console.log("button pressed");
 
+function clearBox(allTweets) {
+  document.querySelector("#allTweets").innerHTML = "";
+}
 
 fetchTweets();
 
@@ -42,5 +52,3 @@ function showSingleTweet(tweet) {
   clone.querySelector("#textTweet").textContent = tweet.text;
   allTweets.appendChild(clone);
 }
-
-fetchButton.addEventListener('click', fetchTweets());
