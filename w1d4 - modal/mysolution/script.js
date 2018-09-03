@@ -4,6 +4,7 @@ let btnDetails = document.querySelectorAll(".details");
 let modal = document.querySelector("#modal_container");
 let closeBtn = document.querySelector("span");
 
+
 btnDetails.forEach(function(e) {
   e.addEventListener("click", function() {
     modal.classList.remove("hidden")
