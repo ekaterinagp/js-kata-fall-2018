@@ -8,6 +8,7 @@ function displayElement(element) {
 function listMethods(id) {
   console.log(id);
   let section = document.getElementById(id);
+  //option: const elements=section.querySelectorAll("ul>li");
   let elements = section.getElementsByTagName("UL")[0].getElementsByTagName("LI");
   console.log(elements);
   let arEl = Array.prototype.slice.call(elements);
@@ -26,6 +27,8 @@ function listMethods(id) {
     displayElement(element);
   }
 }
+
+
 
 
 listMethods("modify");
