@@ -1,0 +1,30 @@
+div {
+  width: 50px;
+  height: 100px;
+  display: inline-block;
+}
+
+button {
+  float: left;
+  margin: 1em;
+}
+
+.color1 {
+  background-color: hsl(208, 100%, 50%);
+}
+
+.color2 {
+  background-color: hsl(107, 100%, 50%);
+}
+
+.color3 {
+  background-color: hsl(190, 100%, 50%);
+}
+
+.color4 {
+  background-color: hsl(28, 100%, 50%);
+}
+
+.color5 {
+  background-color: hsl(37, 100%, 50%);
+}
