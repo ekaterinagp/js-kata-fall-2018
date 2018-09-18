@@ -1,0 +1,13 @@
+#mainDiv {
+  background-color: hsl(259, 100%, 59%);
+  width: 300px;
+  height: 400px;
+  transition: background-color 2s ease-in-out;
+
+}
+
+/* @keyframes change {
+  to {
+    background-color: hsl(351, 100%, 59%);
+  }
+} */
