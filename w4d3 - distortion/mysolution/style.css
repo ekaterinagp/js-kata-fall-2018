@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'font';
+  src: url("april_fool.ttf");
+}
+
 .mainDiv {
-  background-color: rgb(177, 172, 172);
+  background-color: #d0bdc0;
   width: 300px;
   height: 300px;
 }
@@ -11,11 +16,23 @@ p {
 .orderNow {
   width: 100px;
   height: 70px;
-  background-color: white;
+  /* background-color: white; */
   position: absolute;
-  margin: 5em;
+  margin: 3em;
   display: none;
+  color: red;
+  font-family: 'font';
+  font-size: 30px;
 
+}
+
+.peopleNumber {
+  font-family: 'font';
+  font-size: 2em;
+}
+
+h1 {
+  font-family: 'font';
 }
 
 .show {
