@@ -6,6 +6,10 @@ let endpoint = "https://kea-alt-del.dk/kata-distortion/";
 let queue = document.querySelector("svg");
 const NS = "http://www.w3.org/2000/svg";
 let lineArray = [];
+let barName = document.querySelector(".barName");
+let empName = document.querySelector(".employee");
+let orderNow = document.querySelector(".orderNow");
+let peopleNumberNow = document.querySelector(".peopleNumber");
 
 function queueUpdate() {
   fetch(endpoint).then(e => e.json())
@@ -27,6 +31,10 @@ init();
 
 function showQueue(peopleinQueue) {
   console.log("showQueue is called. people :", peopleinQueue);
+  barName.textContent = peopleinQueue.name;
+  empName.textContent = peopleinQueue.personel;
+  peopleNumberNow.textContent = peopleinQueue.inQueue;
+
   // let peopleNumber = Number(peopleinQueue.inQueue);
   // console.log("to number :", peopleNumber);
   lineArray.push(peopleinQueue);
@@ -42,10 +50,13 @@ function showQueue(peopleinQueue) {
   rect.setAttribute("y", 100 - Number(peopleinQueue.inQueue));
   rect.setAttribute("width", 6);
   rect.setAttribute("height", 100 + Number(peopleinQueue.inQueue));
-  if (peopleinQueue.inQueue < 10) {
+  rect.classList.add(".trans");
+  if (peopleinQueue.inQueue < 5) {
     rect.style.fill = "green";
+    orderNow.classList.add("show");
   } else {
     rect.style.fill = "red";
+    orderNow.classList.remove("show");
   }
   // let clone = template.cloneNode(true);
   // clone.querySelector(".barName").textContent = peopleinQueue.name;
