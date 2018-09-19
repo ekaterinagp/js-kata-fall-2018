@@ -1,12 +1,14 @@
 @font-face {
-  font-family: 'font';
+  font-family: "font";
   src: url("april_fool.ttf");
 }
 
 .mainDiv {
   background-color: #d0bdc0;
-  width: 300px;
-  height: 300px;
+  width: 380px;
+  height: auto;
+  padding: 10px 0 0 10px;
+  border-bottom: 5px solid #000;
 }
 
 p {
@@ -15,30 +17,87 @@ p {
 
 .orderNow {
   width: 100px;
-  height: 70px;
-  /* background-color: white; */
+  height: 85px;
+  margin-left: 8em;
+  margin-top: -4em;
+  background-color: white;
   position: absolute;
-  margin: 3em;
+  /* margin: 3em; */
   display: none;
   color: red;
-  font-family: 'font';
-  font-size: 30px;
-
+  text-align: center;
+  font-family: "font";
+  font-size: 29px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 79%,
+    74% 80%,
+    32% 100%,
+    34% 80%,
+    0 80%
+  );
+  animation: scale 2s infinite;
+  animation-timing-function: cubic-bezier();
 }
-
+@keyframes scale {
+  to {
+    transform: scale(1.5);
+  }
+}
+.weAreBusy {
+  width: 100px;
+  height: 85px;
+  margin-left: 8em;
+  margin-top: -4em;
+  background-color: white;
+  position: absolute;
+  display: none;
+  color: red;
+  text-align: center;
+  font-family: "font";
+  font-size: 29px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 79%,
+    74% 80%,
+    32% 100%,
+    34% 80%,
+    0 80%
+  );
+  animation: shake 3s infinite ease-out;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
 .peopleNumber {
-  font-family: 'font';
+  font-family: "font";
   font-size: 2em;
 }
-
 h1 {
-  font-family: 'font';
+  font-family: "font";
+  margin: 1em;
 }
-
 .show {
   display: block;
 }
-
 .trans {
   transition: height 2s ease-in-out;
 }
