@@ -20,11 +20,11 @@ p {
   height: 85px;
   margin-left: 8em;
   margin-top: -4em;
-  background-color: white;
+  background-color: green;
   position: absolute;
   /* margin: 3em; */
   display: none;
-  color: red;
+  color: white;
   text-align: center;
   font-family: "font";
   font-size: 29px;
@@ -37,8 +37,7 @@ p {
     34% 80%,
     0 80%
   );
-  animation: scale 2s infinite;
-  animation-timing-function: cubic-bezier();
+  animation: scale 2s infinite ease-in-out;
 }
 @keyframes scale {
   to {
@@ -50,10 +49,10 @@ p {
   height: 85px;
   margin-left: 8em;
   margin-top: -4em;
-  background-color: white;
+  background-color: red;
   position: absolute;
   display: none;
-  color: red;
+  color: white;
   text-align: center;
   font-family: "font";
   font-size: 29px;
