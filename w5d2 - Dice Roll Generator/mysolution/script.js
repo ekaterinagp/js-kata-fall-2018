@@ -49,7 +49,7 @@ function moveHorse(horseNumber) {
     clearInterval(myInterval);
     // firework.classList.remove("hidden");
     winner.innerHTML =
-      "And the winner is...\nThe horse number " + horseNumber + "!";
+      "And the winner is..." + " " + "The horse number " + horseNumber + "!";
     winner.classList.remove("hidden");
     return;
   }

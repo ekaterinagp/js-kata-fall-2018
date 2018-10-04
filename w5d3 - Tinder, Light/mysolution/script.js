@@ -9,8 +9,7 @@ let yesBtn = document.querySelector("#yes");
 let match = document.querySelector(".match");
 let button = document.querySelectorAll("button");
 
-
-yesBtn.addEventListener('click', function() {
+yesBtn.addEventListener("click", function() {
   let duration = 0.3,
     delay = 0.08;
   TweenMax.to(yesBtn, duration, {
@@ -34,13 +33,10 @@ yesBtn.addEventListener('click', function() {
   });
 });
 
-
-
 function saveData(data) {
   males = data.results;
   displayMale();
 }
-
 
 function fetchData() {
   fetch(endpoint)
@@ -51,33 +47,40 @@ function fetchData() {
     });
 }
 
-
 function displayMale() {
   if (males[currentPosition]) {
+    document.querySelector("#name").textContent =
+      males[currentPosition].name.first +
+      " " +
+      males[currentPosition].name.last;
+    document.querySelector("#location").textContent =
+      "Location:" +
+      " " +
+      males[currentPosition].location.city +
+      " " +
+      males[currentPosition].location.state +
+      " " +
+      males[currentPosition].location.postcode;
 
-    document.querySelector("#name").textContent = males[currentPosition].name.first + " " + males[currentPosition].name.last;
-    document.querySelector("#location").textContent = "Location:" + " " + males[currentPosition].location.city + " " + males[currentPosition].location.state + " " + males[currentPosition].location.postcode;
-
-    document.querySelector("#image").setAttribute("src", males[currentPosition].picture.medium);
-    document.querySelector("#age").textContent = "Age" + " " + males[currentPosition].dob.age + " " + "y.o.";
-
+    document
+      .querySelector("#image")
+      .setAttribute("src", males[currentPosition].picture.medium);
+    document.querySelector("#age").textContent =
+      "Age" + " " + males[currentPosition].dob.age + " " + "y.o.";
   } else {
     currentPosition = 0;
     displayMale();
   }
-
-
-
 }
 
-noBtn.addEventListener('click', moveToNext);
+noBtn.addEventListener("click", moveToNext);
 
 function moveToNext() {
   currentPosition++;
   displayMale();
 }
 
-yesBtn.addEventListener('click', sayYes);
+yesBtn.addEventListener("click", sayYes);
 
 function sayYes() {
   if (males[currentPosition].inToYou == true) {

@@ -7,7 +7,6 @@
   margin: 0em;
   margin-left: 229px;
   margin-top: 43px;
-
 }
 
 button {
@@ -16,7 +15,8 @@ button {
   padding: 6px 0;
   margin-left: 6em;
   transform: translateX(-50%) translateY(-50%);
-  border-radius: 15%;
+  border-radius: 5%;
+  border: 0;
 }
 
 button:hover {
@@ -39,8 +39,6 @@ button:hover {
 
 body {
   background-image: url("heart.png");
-
-
 }
 
 .title {
