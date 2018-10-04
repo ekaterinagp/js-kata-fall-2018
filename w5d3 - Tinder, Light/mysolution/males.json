@@ -4,13 +4,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "frederik",
-        "last": "christiansen"
+        "first": "Frederik",
+        "last": "Christiansen"
       },
       "location": {
-        "street": "6613 blåmejsevej",
-        "city": "stokkemarke",
-        "state": "sjælland",
+        "street": "6613 Blåmejsevej",
+        "city": "Stokkemarke",
+        "state": "Sjælland",
         "postcode": 66149,
         "coordinates": {
           "latitude": "-31.5677",
@@ -41,13 +41,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "bruce",
-        "last": "reid"
+        "first": "Bruce",
+        "last": "Reid"
       },
       "location": {
-        "street": "4705 homestead rd",
-        "city": "fort wayne",
-        "state": "west virginia",
+        "street": "4705 Homestead rd",
+        "city": "Fort Wayne",
+        "state": "West Virginia",
         "postcode": 39623,
         "coordinates": {
           "latitude": "-65.8948",
@@ -78,13 +78,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "alão",
-        "last": "souza"
+        "first": "Alão",
+        "last": "Souza"
       },
       "location": {
-        "street": "31 rua santa maria ",
-        "city": "uberlândia",
-        "state": "roraima",
+        "street": "31 Rua Santa Maria ",
+        "city": "Uberlândia",
+        "state": "Roraima",
         "postcode": 62326,
         "coordinates": {
           "latitude": "-10.2204",
@@ -115,13 +115,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "wade",
-        "last": "owens"
+        "first": "Wade",
+        "last": "Owens"
       },
       "location": {
-        "street": "2814 photinia ave",
-        "city": "grand prairie",
-        "state": "connecticut",
+        "street": "2814 Photinia ave",
+        "city": "Grand Prairie",
+        "state": "Connecticut",
         "postcode": 96107,
         "coordinates": {
           "latitude": "42.8916",
@@ -152,13 +152,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "kadir",
-        "last": "özgörkey"
+        "first": "Kadir",
+        "last": "Ozgörkey"
       },
       "location": {
-        "street": "5178 anafartalar cd",
-        "city": "bitlis",
-        "state": "ağrı",
+        "street": "5178 Anafartalar cd",
+        "city": "Bitlis",
+        "state": "Ağrı",
         "postcode": 64539,
         "coordinates": {
           "latitude": "48.0844",
@@ -189,13 +189,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "borja",
-        "last": "campos"
+        "first": "Borja",
+        "last": "Campos"
       },
       "location": {
-        "street": "6659 calle nebrija",
-        "city": "murcia",
-        "state": "aragón",
+        "street": "6659 Calle Nebrija",
+        "city": "Murcia",
+        "state": "Aragón",
         "postcode": 13031,
         "coordinates": {
           "latitude": "24.0592",
@@ -226,13 +226,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "jorim",
-        "last": "beernink"
+        "first": "Jorim",
+        "last": "Beernink"
       },
       "location": {
-        "street": "6293 wulpstraat",
-        "city": "zwijndrecht",
-        "state": "noord-brabant",
+        "street": "6293 Wulpstraat",
+        "city": "Zwijndrecht",
+        "state": "Noord-Brabant",
         "postcode": 56004,
         "coordinates": {
           "latitude": "-33.4346",
@@ -263,13 +263,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "flip",
-        "last": "hoendervangers"
+        "first": "Flip",
+        "last": "Hoendervangers"
       },
       "location": {
-        "street": "9060 predikherenkerkhof",
-        "city": "gemert-bakel",
-        "state": "limburg",
+        "street": "9060 Predikherenkerkhof",
+        "city": "Gemert-Bakel",
+        "state": "Limburg",
         "postcode": 81039,
         "coordinates": {
           "latitude": "-23.7336",
@@ -300,13 +300,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "maxence",
-        "last": "meunier"
+        "first": "Maxence",
+        "last": "Meunier"
       },
       "location": {
-        "street": "1631 place paul-duquaire",
-        "city": "besançon",
-        "state": "seine-et-marne",
+        "street": "1631 Place Paul-Duquaire",
+        "city": "Besançon",
+        "state": "Seine-et-Marne",
         "postcode": 29801,
         "coordinates": {
           "latitude": "-67.5572",
@@ -337,13 +337,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "enrique",
-        "last": "lorenzo"
+        "first": "Enrique",
+        "last": "Lorenzo"
       },
       "location": {
-        "street": "3769 calle nebrija",
-        "city": "torrejón de ardoz",
-        "state": "comunidad de madrid",
+        "street": "3769 Calle Nebrija",
+        "city": "Torrejón de Ardoz",
+        "state": "Comunidad de Madrid",
         "postcode": 69713,
         "coordinates": {
           "latitude": "23.2738",
@@ -374,13 +374,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "ran",
-        "last": "de bont"
+        "first": "Ran",
+        "last": "de Bont"
       },
       "location": {
-        "street": "3494 damstraat",
-        "city": "epe",
-        "state": "utrecht",
+        "street": "3494 Damstraat",
+        "city": "Epe",
+        "state": "Utrecht",
         "postcode": 87529,
         "coordinates": {
           "latitude": "-30.6328",
@@ -411,13 +411,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "jeremy",
-        "last": "bulder"
+        "first": "Jeremy",
+        "last": "Bulder"
       },
       "location": {
-        "street": "4219 leidsekade",
-        "city": "beuningen",
-        "state": "friesland",
+        "street": "4219 Leidsekade",
+        "city": "Beuningen",
+        "state": "Friesland",
         "postcode": 39191,
         "coordinates": {
           "latitude": "-67.1424",
@@ -448,13 +448,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "stanislav",
-        "last": "hermanns"
+        "first": "Stanislav",
+        "last": "Hermanns"
       },
       "location": {
-        "street": "danziger straße 60",
-        "city": "osterburken",
-        "state": "saarland",
+        "street": "Danziger Straße 60",
+        "city": "Osterburken",
+        "state": "Saarland",
         "postcode": 70734,
         "coordinates": {
           "latitude": "59.3621",
@@ -485,13 +485,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "necati",
-        "last": "ertepınar"
+        "first": "Necati",
+        "last": "Ertepınar"
       },
       "location": {
-        "street": "7658 atatürk sk",
-        "city": "mardin",
-        "state": "muş",
+        "street": "7658 Atatürk sk",
+        "city": "Mardin",
+        "state": "Muş",
         "postcode": 76821,
         "coordinates": {
           "latitude": "5.6559",
@@ -559,13 +559,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "niilo",
-        "last": "huhtala"
+        "first": "Niilo",
+        "last": "Huhtala"
       },
       "location": {
-        "street": "9305 rotuaari",
-        "city": "vieremä",
-        "state": "southern savonia",
+        "street": "9305 Rotuaari",
+        "city": "Vieremä",
+        "state": "Southern Savonia",
         "postcode": 33371,
         "coordinates": {
           "latitude": "65.0588",
@@ -596,13 +596,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "dírio",
-        "last": "rezende"
+        "first": "Dírio",
+        "last": "Rezende"
       },
       "location": {
-        "street": "3726 rua vinte e um",
-        "city": "mogi guaçu",
-        "state": "pernambuco",
+        "street": "3726 Rua vinte e um",
+        "city": "Mogi Guaçu",
+        "state": "Pernambuco",
         "postcode": 68621,
         "coordinates": {
           "latitude": "16.4037",
@@ -633,13 +633,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "darrell",
-        "last": "pennings"
+        "first": "Darrell",
+        "last": "Pennings"
       },
       "location": {
-        "street": "9395 wittevrouwensingel",
-        "city": "katwijk",
-        "state": "limburg",
+        "street": "9395 Wittevrouwensingel",
+        "city": "Katwijk",
+        "state": "Limburg",
         "postcode": 57621,
         "coordinates": {
           "latitude": "31.3206",
@@ -670,13 +670,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "toivo",
-        "last": "anttila"
+        "first": "Toivo",
+        "last": "Anttila"
       },
       "location": {
-        "street": "6694 tahmelantie",
-        "city": "pyhäjoki",
-        "state": "north karelia",
+        "street": "6694 Tahmelantie",
+        "city": "Pyhäjoki",
+        "state": "North Karelia",
         "postcode": 59116,
         "coordinates": {
           "latitude": "52.9426",
@@ -707,13 +707,13 @@
       "gender": "male",
       "name": {
         "title": "mr",
-        "first": "herbert",
-        "last": "riley"
+        "first": "Herbert",
+        "last": "Riley"
       },
       "location": {
-        "street": "3823 taylor st",
-        "city": "lubbock",
-        "state": "south dakota",
+        "street": "3823 Taylor st",
+        "city": "Lubbock",
+        "state": "South Dakota",
         "postcode": 25116,
         "coordinates": {
           "latitude": "-68.0396",

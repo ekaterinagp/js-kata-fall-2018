@@ -1,12 +1,58 @@
 .match {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  color: white;
+  width: 50px;
+  height: 50px;
+  /* background-image: url(love.png); */
   position: absolute;
+  z-index: 10;
+  margin: 0em;
+  margin-left: 229px;
+  margin-top: 43px;
 
+}
+
+button {
+  background: #cf7b8d;
+  width: 100px;
+  padding: 6px 0;
+  margin-left: 6em;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 15%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
 }
 
 .hidden {
   display: none;
+}
+
+.buttonDiv {
+  padding-top: 2em;
+  display: inline-flex;
+}
+
+body {
+  background-image: url("heart.png");
+
+
+}
+
+.title {
+  font-size: 100px;
+  color: white;
+  font-family: "Century Gothic";
+  font-weight: bold;
+}
+
+section {
+  background-color: white;
+  width: 23vw;
+  height: 50vh;
+  text-align: center;
 }

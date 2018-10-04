@@ -5,5 +5,14 @@
   width: 60px;
   height: 60px;
   position: absolute;
+  z-index: 10;
+}
 
+p {
+
+  text-align: center;
+  font-size: xx-large;
+  padding-left: 10vw;
+  padding-top: 20vh;
+  font-family: "Century Gothic";
 }

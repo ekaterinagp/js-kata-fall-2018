@@ -1,16 +1,68 @@
-td,
-th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-  width: 50px;
-  height: 50px;
+body {
+  margin: 0;
+  padding: 0;
 }
 
+.hidden {
+  display: none;
+}
 
+.startBtn {
+  padding: 1em;
+  margin: 5px;
+  cursor: pointer;
+  font-family: "Century Gothic";
+  background-color: #959494;
+  color: white;
+  border: 0;
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 30%;
+}
+
+.startBtn:hover {
+  background-color: #65ef85;
+}
+
+.horse {
+  width: 100px;
+  position: relative;
+  /* transition-timing-function: ease-in-out; */
+  transition: all 1s ease-in;
+  z-index: 100;
+}
+
+.allHorses {
+  display: grid;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+  padding-top: 5em;
+}
+
+#finish {
+  width: 59px;
+  height: 100vh;
+  position: absolute;
+  z-index: 10;
+  padding-left: 60vw;
+}
+
+.grass {
+  background-image: url("picture/grass.svg");
+}
+
+.fire {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  padding-left: 60vh;
+  transition: all 2s ease-in;
+  z-index: 12;
+}
+
+.winner {
+  position: absolute;
+  padding-left: 27vw;
+  padding-top: 7vh;
+  font-size: 36px;
+  font-family: "Century Gothic";
+  color: red;
+  font-weight: bold;
 }

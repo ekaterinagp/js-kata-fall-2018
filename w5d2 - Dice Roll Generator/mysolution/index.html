@@ -6,32 +6,30 @@
     content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible"
     content="ie=edge">
-  <title>Document</title>
+  <title>Horse race</title>
   <link rel="stylesheet"
     href="style.css">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <th>1</th>
-      <th>2</th>
-      <th>3</th>
-      <th>4</th>
-      <th>5</th>
-      <th>6</th>
-      <th>Total Rolls</th>
-    </tr>
-    <td id="one"></td>
-    <td id="two"></td>
-    <td id="three"></td>
-    <td id="four"></td>
-    <td id="five"></td>
-    <td id="six"></td>
-    <td id="total"></td>
+  <div class="winner hidden">
 
-  </table>
-  <script src="script.js"></script>
+
+  </div>
+
+  <button
+    class="startBtn">Start the race!</button>
+  <div class="allHorses">
+    <div class="grass"><img id="first" class="horse" src="picture/horse1.svg"></div>
+      <div class="grass"><img id="second" class="horse" src="picture/horse2.svg"></div>
+        <div class="grass"><img id="third" class="horse" src="picture/horse3.svg"></div>
+          <div class="grass"><img id="fourth" class="horse" src="picture/horse4.svg"></div>
+            <div class="grass"><img id="fifth" class="horse" src="picture/horse5.svg"></div>
+              <div class="grass"><img id="sixth" class="horse" src="picture/horse6.svg"></div>
+                <img id="finish" src="picture/finish.svg">
+              </div>
+                <div></div>
+                <script src="script.js"></script>
 </body>
 
 </html>
